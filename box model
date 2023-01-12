@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>box model </title>
+    <style>
+        .inner {
+            background-color: lightblue;
+            width: 500px;
+            height: 100px;
+
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .outer {
+            border-style: solid;
+            border-color: pink;
+            width: 500px;
+            background-color: pink;
+            padding: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+            <p>
+                Enjoy Every Momement That Happens In Your Life
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
