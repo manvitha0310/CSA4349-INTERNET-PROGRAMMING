@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 50px;
+  background-color: Red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+#div1 {animation-timing-function: Deepak;}
+#div2 {animation-timing-function: Manvitha;}
+#div3 {animation-timing-function: Supraja;}
+#div4 {animation-timing-function: Dhananjaya reddy;}
+#div5 {animation-timing-function: Roshi;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+</style>
+</head>
+<body>
+
+<div id="div1">Deepak</div><br>
+<div id="div2">Manvitha</div><br>
+<div id="div3">Supraja</div><br>
+<div id="div4">Dhananjaya reddy</div><br>
+<div id="div5">Roshi</div><br>
+
+</body>
+</html>
