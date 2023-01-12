@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FIND NEAREST ODD NO</title>
+    <style>
+        div {
+            width: 700px;
+            border: solid;
+            padding-left: 25px;
+            padding-bottom: 25px;
+            background-color: red;
+
+        }
+
+        #inputNumber {
+            border-radius: 25px;
+
+        }
+
+        button {
+            padding-left: 15px;
+            padding-top: 5px;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>JavaScript - Find Nearest Odd Number</h2>
+
+        <p>Enter a number: <input type="text" id="inputNumber"></p>
+        <button onclick="findNearestOdd()">Submit</button>
+
+        <p id="displayNearestOdd"></p>
+
+        <script>
+            function findNearestOdd() {
+                var inputNumber = document.getElementById("inputNumber").value;
+                var nearestOdd;
+
+                if (inputNumber % 2 === 0) {
+                    nearestOdd = inputNumber - 1;
+                } else {
+                    nearestOdd = inputNumber;
+                }
+
+                document.getElementById("displayNearestOdd").innerHTML = "Nearest odd number: " + nearestOdd;
+            }
+        </script>
+
+    </div>
+
+</body>
+
+</html>
