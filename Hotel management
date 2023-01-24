@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="top">
+        <div>
+            <h1>HOTEL CALIFORNIA</h1>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="middle">
+        <h2>OTHER HOTELS</h2>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+                <img src="background.jpg" class="slide" width="500" height="300" />
+                <img src="background.jpg" class="slide" width="500" height="300" />
+                <img src="background.jpg" class="slide" width="500" height="300" />
+            </div>
+            <div class="buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="thirdpart">
+        <div class="features">
+            <header>
+                <h3>FEATURES:</h3>
+            </header>
+            <ol>
+                <li class="wifi">WIFI</li>
+                <li class="hw">HOT WATER</li>
+                <li class="serv">24/7 SERVICES</li>
+                <li class="food">FOOD</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="table">
+
+        <div class="table2">
+            <fieldset style="width:600px">
+                <legend><b>SEARCH HOTELS</b></legend>
+
+
+                <table border="1">
+                    <tr>
+                        <td>Enter Destination :</td>
+                        <td><input type="search"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Price :</td>
+                        <td><input type="search" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter No 0f Members: </td>
+                        <td><input type="search" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter boarding date:</td>
+                        <td><input type="date" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter return date:</td>
+                        <td><input type="date" class="txt"></td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+                <button class="but">
+                    search
+                </button>
+            </fieldset>
+
+
+
+            <!-- <table border="1">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="txtStudentName" readonly></td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td><input type="text" id="txtStudentClass" readonly></td>
+                </tr>
+                <tr>
+                    <td>Total Marks</td>
+                    <td><input type="text" id="txtTotalMarks" readonly></td>
+                </tr>
+                <tr>
+                    <td>Average Marks</td>
+                    <td><input type="text" id="txtAvgMarks" readonly></td>
+                </tr>
+                <tr>
+                    <td>Grade</td>
+                    <td><input type="text" id="txtGrade" readonly></td>
+                </tr>
+                <tr>
+                    <td>Remarks</td>
+                    <td><input type="text" id="txtResult" readonly></td>
+                </tr>
+            </table> -->
+        </div>
+
+    </div>
+</body>
+
+</html>
